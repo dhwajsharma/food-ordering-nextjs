@@ -38,9 +38,14 @@ const Order = ({ order }) => {
           </table>
         </div>
         <div className={styles.row}>
-          <div className={statusClass(0)}>
+          <div
+            style={{
+              filter: "invert(1)",
+            }}
+            className={statusClass(0)}
+          >
             <Image src="/img/paid.png" width={30} height={30} alt="" />
-            <span>Payment</span>
+            <span style={{ color: "black" }}>Payment</span>
             <div className={styles.checkedIcon}>
               <Image
                 className={styles.checkedIcon}
@@ -51,9 +56,14 @@ const Order = ({ order }) => {
               />
             </div>
           </div>
-          <div className={statusClass(1)}>
+          <div
+            style={{
+              filter: "invert(1)",
+            }}
+            className={statusClass(1)}
+          >
             <Image src="/img/bake.png" width={30} height={30} alt="" />
-            <span>Preparing</span>
+            <span style={{ color: "black" }}>Preparing</span>
             <div className={styles.checkedIcon}>
               <Image
                 className={styles.checkedIcon}
@@ -64,7 +74,12 @@ const Order = ({ order }) => {
               />
             </div>
           </div>
-          <div className={statusClass(2)}>
+          <div
+            style={{
+              filter: "invert(1)",
+            }}
+            className={statusClass(2)}
+          >
             <Image src="/img/bike.png" width={30} height={30} alt="" />
             <span>On the way</span>
             <div className={styles.checkedIcon}>
@@ -77,7 +92,12 @@ const Order = ({ order }) => {
               />
             </div>
           </div>
-          <div className={statusClass(3)}>
+          <div
+            style={{
+              filter: "invert(1)",
+            }}
+            className={statusClass(3)}
+          >
             <Image src="/img/delivered.png" width={30} height={30} alt="" />
             <span>Delivered</span>
             <div className={styles.checkedIcon}>

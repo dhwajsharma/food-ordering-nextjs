@@ -1,7 +1,7 @@
 .mainAddButton {
   padding: 10px;
   margin: 20px;
-  background-color: #d1411e;
+  background-color: #242526;
   width: 150px;
   border-radius: 10px;
   color: white;
@@ -25,6 +25,7 @@
 .wrapper {
   width: 500px;
   background-color: white;
+  color: black;
   padding: 10px 50px;
   border-radius: 20px;
   display: flex;
@@ -51,12 +52,14 @@
 .item {
   display: flex;
   flex-direction: column;
+
   margin-bottom: 10px;
 }
 
 .label {
   margin-bottom: 5px;
   font-size: 14px;
+
   font-weight: 500;
 }
 
@@ -73,6 +76,8 @@
 
 .inputSm {
   width: 25%;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .extra {
@@ -100,10 +105,10 @@
 .addButton {
   width: 25%;
   border: none;
-  background-color: teal;
-  color: white;
+  color: black;
   font-weight: 500;
   cursor: pointer;
-  padding: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
   align-self: flex-end;
 }

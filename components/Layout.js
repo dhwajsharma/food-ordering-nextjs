@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div style={{ background: "#18191a", color: "white" }}>
       <Navbar />
       {children}
       <Footer />

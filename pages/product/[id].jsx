@@ -85,6 +85,7 @@ const Product = ({ pizza }) => {
             type="number"
             defaultValue={1}
             className={styles.quantity}
+            style={{ background: "#242526", color: "#fff" }}
           />
           <button className={styles.button} onClick={handleClick}>
             Add to Cart

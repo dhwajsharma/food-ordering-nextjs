@@ -1,7 +1,8 @@
 .container {
   height: 100px;
   padding: 0px 50px;
-  background-color: #d1411e;
+  background-color: #242526;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,7 +48,7 @@
   font-weight: bold;
 }
 
-.list {
+.name {
   padding: 0;
   display: flex;
   align-items: center;
@@ -78,7 +79,7 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: #d1411e;
+  color: #242526;
 }
 
 @media screen and (max-width: 480px) {
